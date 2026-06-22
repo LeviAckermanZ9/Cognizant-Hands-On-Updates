@@ -1,10 +1,6 @@
--- ============================================================================
--- Exercise 3: Stored Procedures
--- ============================================================================
-
--- Scenario 1: Process monthly interest for all savings accounts.
+-- Scenario 1
 CREATE OR REPLACE PROCEDURE ProcessMonthlyInterest IS
-    v_interest_rate NUMBER := 0.01; -- 1% interest rate
+    v_interest_rate NUMBER := 0.01;
 BEGIN
     UPDATE Accounts
     SET Balance = Balance + (Balance * v_interest_rate)
@@ -19,18 +15,18 @@ EXCEPTION
 END ProcessMonthlyInterest;
 /
 
--- Scenario 2: Implement a bonus scheme for employees based on their performance.
+-- Scenario 2
 CREATE OR REPLACE PROCEDURE UpdateEmployeeBonus (
-    p_department_id IN NUMBER,
+    p_department_name IN VARCHAR2,
     p_bonus_percentage IN NUMBER
 ) IS
 BEGIN
     UPDATE Employees
     SET Salary = Salary + (Salary * (p_bonus_percentage / 100))
-    WHERE DepartmentID = p_department_id;
+    WHERE Department = p_department_name;
     
     COMMIT;
-    DBMS_OUTPUT.PUT_LINE('Bonus applied to department ' || p_department_id);
+    DBMS_OUTPUT.PUT_LINE('Bonus applied to department ' || p_department_name);
 EXCEPTION
     WHEN OTHERS THEN
         ROLLBACK;
@@ -38,7 +34,7 @@ EXCEPTION
 END UpdateEmployeeBonus;
 /
 
--- Scenario 3: Transfer funds between accounts.
+-- Scenario 3
 CREATE OR REPLACE PROCEDURE TransferFunds (
     p_source_account_id IN NUMBER,
     p_target_account_id IN NUMBER,
@@ -46,19 +42,16 @@ CREATE OR REPLACE PROCEDURE TransferFunds (
 ) IS
     v_source_balance NUMBER;
 BEGIN
-    -- Check balance of the source account and lock the row
     SELECT Balance INTO v_source_balance
     FROM Accounts
     WHERE AccountID = p_source_account_id
     FOR UPDATE;
 
     IF v_source_balance >= p_amount THEN
-        -- Deduct from source account
         UPDATE Accounts
         SET Balance = Balance - p_amount
         WHERE AccountID = p_source_account_id;
         
-        -- Add to target account
         UPDATE Accounts
         SET Balance = Balance + p_amount
         WHERE AccountID = p_target_account_id;

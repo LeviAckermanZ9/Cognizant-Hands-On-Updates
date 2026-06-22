@@ -1,16 +1,12 @@
--- ============================================================================
--- Exercise 1: Control Structures
--- ============================================================================
-
--- Scenario 1: Apply a discount to loan interest rates for customers above 60 years old.
+-- Scenario 1
 DECLARE
-    v_discount_rate NUMBER := 1; -- 1% discount
+    v_discount_rate NUMBER := 1;
 BEGIN
     FOR customer_rec IN (
         SELECT c.CustomerID, l.LoanID, l.InterestRate
         FROM Customers c
         JOIN Loans l ON c.CustomerID = l.CustomerID
-        WHERE c.Age > 60
+        WHERE TRUNC(MONTHS_BETWEEN(SYSDATE, c.DOB) / 12) > 60
     ) LOOP
         UPDATE Loans
         SET InterestRate = InterestRate - v_discount_rate
@@ -22,7 +18,7 @@ BEGIN
 END;
 /
 
--- Scenario 2: Promote customers to VIP status based on balance over $10,000.
+-- Scenario 2
 BEGIN
     FOR customer_rec IN (
         SELECT CustomerID, Balance
@@ -39,17 +35,17 @@ BEGIN
 END;
 /
 
--- Scenario 3: Send reminders to customers whose loans are due within the next 30 days.
+-- Scenario 3
 BEGIN
     FOR loan_rec IN (
-        SELECT c.CustomerName, l.LoanID, l.DueDate
+        SELECT c.Name, l.LoanID, l.EndDate
         FROM Customers c
         JOIN Loans l ON c.CustomerID = l.CustomerID
-        WHERE l.DueDate BETWEEN SYSDATE AND SYSDATE + 30
+        WHERE l.EndDate BETWEEN SYSDATE AND SYSDATE + 30
     ) LOOP
-        DBMS_OUTPUT.PUT_LINE('Reminder: Dear ' || loan_rec.CustomerName || 
+        DBMS_OUTPUT.PUT_LINE('Reminder: Dear ' || loan_rec.Name || 
                              ', your loan (ID: ' || loan_rec.LoanID || 
-                             ') is due on ' || TO_CHAR(loan_rec.DueDate, 'YYYY-MM-DD') || '.');
+                             ') is due on ' || TO_CHAR(loan_rec.EndDate, 'YYYY-MM-DD') || '.');
     END LOOP;
 END;
 /
