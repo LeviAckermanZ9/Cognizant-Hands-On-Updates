@@ -5,9 +5,9 @@ import org.slf4j.LoggerFactory;
 import org.junit.jupiter.api.Test;
 import static org.junit.jupiter.api.Assertions.assertEquals;
 
-public class CalculatorServiceTest {
+public class TDD_Logging {
     
-    private static final Logger logger = LoggerFactory.getLogger(CalculatorServiceTest.class);
+    private static final Logger logger = LoggerFactory.getLogger(TDD_Logging.class);
     private final CalculatorService calculator = new CalculatorService();
 
     @Test
@@ -25,5 +25,11 @@ public class CalculatorServiceTest {
         assertEquals(15, result, "5 + 10 should equal 15");
         
         logger.info("Finished testAddition successfully");
+    }
+}
+
+class CalculatorService {
+    public int add(int a, int b) {
+        return a + b;
     }
 }
