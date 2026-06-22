@@ -1,4 +1,5 @@
-package EcommerceSearch;
+// [MANDATORY]
+package Exercise2_EcommerceSearch;
 
 import java.util.Arrays;
 

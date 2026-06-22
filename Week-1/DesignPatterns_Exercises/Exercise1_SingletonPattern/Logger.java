@@ -1,6 +1,7 @@
+// [MANDATORY]
 
 
-package SingletonPatternExample;
+package Exercise1_SingletonPattern;
 
 public class Logger {
     private static Logger instance;

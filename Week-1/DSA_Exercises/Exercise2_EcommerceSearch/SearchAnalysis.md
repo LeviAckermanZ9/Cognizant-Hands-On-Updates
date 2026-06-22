@@ -1,3 +1,4 @@
+<!-- [MANDATORY] -->
 # E-commerce Platform Search Function Analysis
 
 ## 1. Asymptotic Notation (Big O)

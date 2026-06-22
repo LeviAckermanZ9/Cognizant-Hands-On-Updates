@@ -1,6 +1,7 @@
+// [MANDATORY]
 
 
-package FactoryMethodPatternExample;
+package Exercise2_FactoryMethodPattern;
 
 public class ExcelDocument implements Document {
     @Override

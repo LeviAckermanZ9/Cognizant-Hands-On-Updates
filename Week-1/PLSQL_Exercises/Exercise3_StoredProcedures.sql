@@ -1,7 +1,11 @@
--- Scenario 1
+-- [MANDATORY]
+-- Exercise 3: Stored Procedures
+
+-- Scenario 1: Process monthly interest for all savings accounts.
 CREATE OR REPLACE PROCEDURE ProcessMonthlyInterest IS
     v_interest_rate NUMBER := 0.01;
 BEGIN
+    -- Add 1% interest to all savings accounts
     UPDATE Accounts
     SET Balance = Balance + (Balance * v_interest_rate)
     WHERE AccountType = 'Savings';
@@ -10,17 +14,19 @@ BEGIN
     DBMS_OUTPUT.PUT_LINE('Monthly interest processed for all savings accounts.');
 EXCEPTION
     WHEN OTHERS THEN
+        -- Rollback if something goes wrong
         ROLLBACK;
         DBMS_OUTPUT.PUT_LINE('Error processing monthly interest: ' || SQLERRM);
 END ProcessMonthlyInterest;
 /
 
--- Scenario 2
+-- Scenario 2: Implement a bonus scheme for employees based on their performance.
 CREATE OR REPLACE PROCEDURE UpdateEmployeeBonus (
     p_department_name IN VARCHAR2,
     p_bonus_percentage IN NUMBER
 ) IS
 BEGIN
+    -- Increase the salary by the bonus percentage for the specified department
     UPDATE Employees
     SET Salary = Salary + (Salary * (p_bonus_percentage / 100))
     WHERE Department = p_department_name;
@@ -34,7 +40,7 @@ EXCEPTION
 END UpdateEmployeeBonus;
 /
 
--- Scenario 3
+-- Scenario 3: Transfer funds between accounts.
 CREATE OR REPLACE PROCEDURE TransferFunds (
     p_source_account_id IN NUMBER,
     p_target_account_id IN NUMBER,
@@ -42,16 +48,20 @@ CREATE OR REPLACE PROCEDURE TransferFunds (
 ) IS
     v_source_balance NUMBER;
 BEGIN
+    -- Check the source balance and lock the row to prevent race conditions
     SELECT Balance INTO v_source_balance
     FROM Accounts
     WHERE AccountID = p_source_account_id
     FOR UPDATE;
 
+    -- Make sure they have enough money before transferring
     IF v_source_balance >= p_amount THEN
+        -- Deduct from source
         UPDATE Accounts
         SET Balance = Balance - p_amount
         WHERE AccountID = p_source_account_id;
         
+        -- Add to target
         UPDATE Accounts
         SET Balance = Balance + p_amount
         WHERE AccountID = p_target_account_id;

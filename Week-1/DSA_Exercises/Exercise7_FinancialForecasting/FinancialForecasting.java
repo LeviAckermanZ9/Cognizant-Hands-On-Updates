@@ -1,4 +1,5 @@
-package FinancialForecasting;
+// [MANDATORY]
+package Exercise7_FinancialForecasting;
 
 import java.util.HashMap;
 import java.util.Map;

@@ -1,4 +1,5 @@
-package EcommerceSearch;
+// [MANDATORY]
+package Exercise2_EcommerceSearch;
 
 public class Product implements Comparable<Product> {
     private String productId;

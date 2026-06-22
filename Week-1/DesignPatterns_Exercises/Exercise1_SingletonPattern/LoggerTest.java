@@ -1,6 +1,7 @@
+// [MANDATORY]
 
 
-package SingletonPatternExample;
+package Exercise1_SingletonPattern;
 
 public class LoggerTest {
     public static void main(String[] args) {
