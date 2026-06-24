@@ -45,16 +45,16 @@ The solutions are cleanly organized week-wise:
 ## 📈 Journey Progress
 
 <p align="center">
-  <img src="https://progress-bar.dev/14/?scale=100&title=Overall%20Completion&width=600&color=success&suffix=%" alt="Progress Bar" />
+  <img src="https://geps.dev/progress/14" alt="Progress Bar" width="400" />
 </p>
 
-- [x] **Week 1:** Design Patterns, DSA, PL/SQL, TDD & Logging
-- [ ] **Week 2:** Spring Core, Maven, Spring Data JPA, Hibernate
-- [ ] **Week 3:** Spring REST using Spring Boot 3
-- [ ] **Week 4:** Code quality, Sonarqube, Microservices, Spring Cloud
-- [ ] **Week 5:** Angular / React
-- [ ] **Week 6:** Angular / React, GIT, CI/CD
-- [ ] **Week 7:** DevOps, Docker, Cloud and GenAI fundamentals
+- ✅ **Week 1:** Design Patterns, DSA, PL/SQL, TDD & Logging
+- ⬜ **Week 2:** Spring Core, Maven, Spring Data JPA, Hibernate
+- ⬜ **Week 3:** Spring REST using Spring Boot 3
+- ⬜ **Week 4:** Code quality, Sonarqube, Microservices, Spring Cloud
+- ⬜ **Week 5:** Angular / React
+- ⬜ **Week 6:** Angular / React, GIT, CI/CD
+- ⬜ **Week 7:** DevOps, Docker, Cloud and GenAI fundamentals
 
 ---
 <div align="center">
