@@ -42,6 +42,20 @@ The solutions are cleanly organized week-wise:
   <img src="https://img.shields.io/badge/Git-F05032?style=flat-square&logo=git&logoColor=white" alt="Git" />
 </p>
 
+## 📈 Journey Progress
+
+<p align="center">
+  <img src="https://progress-bar.dev/14/?scale=100&title=Overall%20Completion&width=600&color=success&suffix=%" alt="Progress Bar" />
+</p>
+
+- [x] **Week 1:** Design Patterns, DSA, PL/SQL, TDD & Logging
+- [ ] **Week 2:** Spring Core, Maven, Spring Data JPA, Hibernate
+- [ ] **Week 3:** Spring REST using Spring Boot 3
+- [ ] **Week 4:** Code quality, Sonarqube, Microservices, Spring Cloud
+- [ ] **Week 5:** Angular / React
+- [ ] **Week 6:** Angular / React, GIT, CI/CD
+- [ ] **Week 7:** DevOps, Docker, Cloud and GenAI fundamentals
+
 ---
 <div align="center">
   <i>Maintained for the Cognizant Digital Nurture 5.0 Evaluation</i>
