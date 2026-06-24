@@ -45,7 +45,7 @@ The solutions are cleanly organized week-wise:
 ## 📈 Journey Progress
 
 <p align="center">
-  <img src="https://geps.dev/progress/14" alt="Progress Bar" width="400" />
+  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=22&pause=2000&color=25A162&center=true&vCenter=true&width=500&lines=Overall+Progress:+14%25;1+out+of+7+Weeks+Completed!;[██▒▒▒▒▒▒▒▒▒▒▒▒]" alt="Animated Progress" />
 </p>
 
 - ✅ **Week 1:** Design Patterns, DSA, PL/SQL, TDD & Logging
