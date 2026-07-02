@@ -48,11 +48,11 @@ The solutions are cleanly organized week-wise:
 ## 📈 Journey Progress
 
 <p align="center">
-  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=22&pause=2000&color=25A162&center=true&vCenter=true&width=500&lines=Overall+Progress:+14%25;1+out+of+7+Weeks+Completed!;%5B%E2%96%88%E2%96%88%E2%96%91%E2%96%91%E2%96%91%E2%96%91%E2%96%91%E2%96%91%E2%96%91%E2%96%91%E2%96%91%E2%96%91%E2%96%91%E2%96%91%5D" alt="Animated Progress" />
+  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=22&pause=2000&color=25A162&center=true&vCenter=true&width=500&lines=Overall+Progress:+28%25;2+out+of+7+Weeks+Completed!;%5B%E2%96%88%E2%96%88%E2%96%88%E2%96%88%E2%96%91%E2%96%91%E2%96%91%E2%96%91%E2%96%91%E2%96%91%E2%96%91%E2%96%91%E2%96%91%E2%96%91%5D" alt="Animated Progress" />
 </p>
 
 - ✅ **Week 1:** Design Patterns, DSA, PL/SQL, TDD & Logging
-- ⬜ **Week 2:** Spring Core, Maven, Spring Data JPA, Hibernate
+- ✅ **Week 2:** Spring Core, Maven, Spring Data JPA, Hibernate
 - ⬜ **Week 3:** Spring REST using Spring Boot 3
 - ⬜ **Week 4:** Code quality, Sonarqube, Microservices, Spring Cloud
 - ⬜ **Week 5:** Angular / React
