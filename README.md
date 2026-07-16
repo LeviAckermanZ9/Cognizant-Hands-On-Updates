@@ -10,26 +10,26 @@
 
 ---
 
-## 🎯 Overview
+## Overview
 
 My structured learning repository for the **Cognizant Digital Nurture 5.0 Deep Skilling** program. This repository documents my 7-week engineering journey, containing all my mandatory hands-on exercise solutions and additional practice as per the program guidelines.
 
-## 🗂️ Repository Structure
+## Repository Structure
 
 The solutions are cleanly organized week-wise:
 
 ```text
-📦 Digital-Nurture-5.0-Engineering-Journey
- ┣ 📂 Week-1/      # Design Patterns, DSA, PL/SQL, TDD & Logging
- ┣ 📂 Week-2/      # Spring Core, Maven, Spring Data JPA, Hibernate
- ┣ 📂 Week-3/      # Spring REST using Spring Boot 3
- ┣ 📂 Week-4/      # Code quality, Sonarqube, Microservices, Spring Cloud
- ┣ 📂 Week-5/      # Angular / React
- ┣ 📂 Week-6/      # Angular / React, GIT, CI/CD
- ┗ 📂 Week-7/      # DevOps, Docker, Cloud and GenAI fundamentals
+Digital-Nurture-5.0-Engineering-Journey/
+├── Week-1/      # Design Patterns, DSA, PL/SQL, TDD & Logging
+├── Week-2/      # Spring Core, Maven, Spring Data JPA, Hibernate
+├── Week-3/      # Spring REST using Spring Boot 3
+├── Week-4/      # Code quality, Sonarqube, Microservices, Spring Cloud
+├── Week-5/      # Angular / React
+├── Week-6/      # Angular / React, GIT, CI/CD
+└── Week-7/      # DevOps, Docker, Cloud and GenAI fundamentals
 ```
 
-## 🚀 Technologies & Skills
+## Technologies & Skills
 
 <p align="left">
   <img src="https://img.shields.io/badge/Java-ED8B00?style=flat-square&logo=java&logoColor=white" alt="Java" />
@@ -47,19 +47,19 @@ The solutions are cleanly organized week-wise:
   <img src="https://img.shields.io/badge/Spring_Cloud-6DB33F?style=flat-square&logo=Spring&logoColor=white" alt="Spring Cloud" />
 </p>
 
-## 📈 Journey Progress
+## Journey Progress
 
 <p align="center">
   <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=22&pause=2000&color=25A162&center=true&vCenter=true&width=500&lines=Overall+Progress:+57%25;4+out+of+7+Weeks+Completed!;%5B%E2%96%88%E2%96%88%E2%96%88%E2%96%88%E2%96%88%E2%96%88%E2%96%88%E2%96%88%E2%96%91%E2%96%91%E2%96%91%E2%96%91%E2%96%91%E2%96%91%5D" alt="Animated Progress" />
 </p>
 
-- ✅ **Week 1:** Design Patterns, DSA, PL/SQL, TDD & Logging
-- ✅ **Week 2:** Spring Core, Maven, Spring Data JPA, Hibernate
-- ✅ **Week 3:** Spring REST using Spring Boot 3
-- ✅ **Week 4:** Code quality, Sonarqube, Microservices, Spring Cloud
-- ⬜ **Week 5:** Angular / React
-- ⬜ **Week 6:** Angular / React, GIT, CI/CD
-- ⬜ **Week 7:** DevOps, Docker, Cloud and GenAI fundamentals
+- [x] **Week 1:** Design Patterns, DSA, PL/SQL, TDD & Logging
+- [x] **Week 2:** Spring Core, Maven, Spring Data JPA, Hibernate
+- [x] **Week 3:** Spring REST using Spring Boot 3
+- [x] **Week 4:** Code quality, Sonarqube, Microservices, Spring Cloud
+- [ ] **Week 5:** Angular / React
+- [ ] **Week 6:** Angular / React, GIT, CI/CD
+- [ ] **Week 7:** DevOps, Docker, Cloud and GenAI fundamentals
 
 ---
 <div align="center">
