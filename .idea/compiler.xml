@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <annotationProcessing>
+      <profile name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="Exercise2_VerifyingInteractions" />
+        <module name="Exercise2_ImplementingDependencyInjection" />
+        <module name="Exercise1_SettingUpJUnit" />
+        <module name="Exercise3_AssertionsInJUnit" />
+        <module name="Exercise1_MockingAndStubbing" />
+        <module name="orm-learn" />
+        <module name="LibraryManagement" />
+        <module name="Exercise4_AAAPatternAndSetup" />
+        <module name="spring-learn" />
+        <module name="Exercise1_LoggingSLF4J" />
+        <module name="LibraryManagement (1)" />
+      </profile>
+    </annotationProcessing>
+  </component>
+  <component name="JavacSettings">
+    <option name="ADDITIONAL_OPTIONS_OVERRIDE">
+      <module name="orm-learn" options="-parameters" />
+      <module name="spring-learn" options="-parameters" />
+    </option>
+  </component>
+</project>

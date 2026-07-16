@@ -44,18 +44,19 @@ The solutions are cleanly organized week-wise:
   <img src="https://img.shields.io/badge/Docker-2CA5E0?style=flat-square&logo=docker&logoColor=white" alt="Docker" />
   <img src="https://img.shields.io/badge/Git-F05032?style=flat-square&logo=git&logoColor=white" alt="Git" />
   <img src="https://img.shields.io/badge/JWT-black?style=flat-square&logo=JSON%20web%20tokens" alt="JWT" />
+  <img src="https://img.shields.io/badge/Spring_Cloud-6DB33F?style=flat-square&logo=Spring&logoColor=white" alt="Spring Cloud" />
 </p>
 
 ## 📈 Journey Progress
 
 <p align="center">
-  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=22&pause=2000&color=25A162&center=true&vCenter=true&width=500&lines=Overall+Progress:+43%25;3+out+of+7+Weeks+Completed!;%5B%E2%96%88%E2%96%88%E2%96%88%E2%96%88%E2%96%88%E2%96%88%E2%96%91%E2%96%91%E2%96%91%E2%96%91%E2%96%91%E2%96%91%E2%96%91%E2%96%91%5D" alt="Animated Progress" />
+  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=22&pause=2000&color=25A162&center=true&vCenter=true&width=500&lines=Overall+Progress:+57%25;4+out+of+7+Weeks+Completed!;%5B%E2%96%88%E2%96%88%E2%96%88%E2%96%88%E2%96%88%E2%96%88%E2%96%88%E2%96%88%E2%96%91%E2%96%91%E2%96%91%E2%96%91%E2%96%91%E2%96%91%5D" alt="Animated Progress" />
 </p>
 
 - ✅ **Week 1:** Design Patterns, DSA, PL/SQL, TDD & Logging
 - ✅ **Week 2:** Spring Core, Maven, Spring Data JPA, Hibernate
 - ✅ **Week 3:** Spring REST using Spring Boot 3
-- ⬜ **Week 4:** Code quality, Sonarqube, Microservices, Spring Cloud
+- ✅ **Week 4:** Code quality, Sonarqube, Microservices, Spring Cloud
 - ⬜ **Week 5:** Angular / React
 - ⬜ **Week 6:** Angular / React, GIT, CI/CD
 - ⬜ **Week 7:** DevOps, Docker, Cloud and GenAI fundamentals

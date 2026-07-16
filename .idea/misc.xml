@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ExternalStorageConfigurationManager" enabled="true" />
+  <component name="MavenProjectsManager">
+    <option name="originalFiles">
+      <list>
+        <option value="$PROJECT_DIR$/Week-1/JUnit_Mockito_SLF4J_Exercises/Exercise1_LoggingSLF4J/pom.xml" />
+        <option value="$PROJECT_DIR$/Week-1/JUnit_Mockito_SLF4J_Exercises/Exercise1_SettingUpJUnit/pom.xml" />
+        <option value="$PROJECT_DIR$/Week-1/JUnit_Mockito_SLF4J_Exercises/Exercise3_AssertionsInJUnit/pom.xml" />
+        <option value="$PROJECT_DIR$/Week-1/JUnit_Mockito_SLF4J_Exercises/Exercise1_MockingAndStubbing/pom.xml" />
+        <option value="$PROJECT_DIR$/Week-1/JUnit_Mockito_SLF4J_Exercises/Exercise4_AAAPatternAndSetup/pom.xml" />
+        <option value="$PROJECT_DIR$/Week-1/JUnit_Mockito_SLF4J_Exercises/Exercise2_VerifyingInteractions/pom.xml" />
+        <option value="$PROJECT_DIR$/Week-2/SpringCore_Maven/Exercise1_LibraryManagement/pom.xml" />
+        <option value="$PROJECT_DIR$/Week-2/SpringCore_Maven/Exercise4_LibraryManagement/pom.xml" />
+        <option value="$PROJECT_DIR$/Week-2/SpringCore_Maven/Exercise2_ImplementingDependencyInjection/pom.xml" />
+        <option value="$PROJECT_DIR$/Week-2/SpringDataJPA_SpringBoot_Hibernate/orm-learn/pom.xml" />
+        <option value="$PROJECT_DIR$/Week-3/SpringREST_SpringBoot/spring-learn/pom.xml" />
+      </list>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" project-jdk-name="25" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/out" />
+  </component>
+</project>
