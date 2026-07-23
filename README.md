@@ -50,14 +50,14 @@ Digital-Nurture-5.0-Engineering-Journey/
 ## Journey Progress
 
 <p align="center">
-  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=22&pause=2000&color=25A162&center=true&vCenter=true&width=500&lines=Overall+Progress:+57%25;4+out+of+7+Weeks+Completed!;%5B%E2%96%88%E2%96%88%E2%96%88%E2%96%88%E2%96%88%E2%96%88%E2%96%88%E2%96%88%E2%96%91%E2%96%91%E2%96%91%E2%96%91%E2%96%91%E2%96%91%5D" alt="Animated Progress" />
+  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=22&pause=2000&color=25A162&center=true&vCenter=true&width=500&lines=Overall+Progress:+71%25;5+out+of+7+Weeks+Completed!;%5B%E2%96%88%E2%96%88%E2%96%88%E2%96%88%E2%96%88%E2%96%88%E2%96%88%E2%96%88%E2%96%88%E2%96%88%E2%96%91%E2%96%91%E2%96%91%E2%96%91%5D" alt="Animated Progress" />
 </p>
 
 - [x] **Week 1:** Design Patterns, DSA, PL/SQL, TDD & Logging
 - [x] **Week 2:** Spring Core, Maven, Spring Data JPA, Hibernate
 - [x] **Week 3:** Spring REST using Spring Boot 3
 - [x] **Week 4:** Code quality, Sonarqube, Microservices, Spring Cloud
-- [ ] **Week 5:** Angular / React
+- [x] **Week 5:** Angular / React
 - [ ] **Week 6:** Angular / React, GIT, CI/CD
 - [ ] **Week 7:** DevOps, Docker, Cloud and GenAI fundamentals
 
